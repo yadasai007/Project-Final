@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="main-container">
+        <div class="main-container link-style bg-dark d-flex flex-column justify-content-center align-items-center">
+            <form action="/signup" method="POST">
+                <div class="mb-2 d-flex flex-column">
+                    <label for="name" class="text-white text-capitalize">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="mb-2 d-flex flex-column">
+                    <label for="mobile" class="text-white text-capitalize">Mobile</label>
+                    <input type="text" id="mobile" name="mobile">
+                </div>
+                <div class="mb-2 d-flex flex-column">
+                    <label for="email" class="text-white text-capitalize">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="mb-2 d-flex flex-column">
+                    <label for="password" class="text-white text-capitalize">Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

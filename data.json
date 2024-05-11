@@ -1,0 +1,9 @@
+{
+    "user": "saikumar-007",
+    "password": "Saikumar20@",
+    "port": 3333,
+    "host": "svc-3482219c-a389-4079-b18b-d50662524e8a-shared-dml.aws-virginia-6.svc.singlestore.com",
+    "database": "database_28bde",
+    "raise_on_warnings": true
+}
+  
