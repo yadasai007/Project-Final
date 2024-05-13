@@ -59,6 +59,7 @@ class Db:
             self.connection.commit()
     
     def search(self,text):
+        print(text)
         if self.cursor is None:
             print("Database connection is not established.")
             return

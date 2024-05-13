@@ -59,8 +59,8 @@ def search():
             else:
                 print('a')
                 return render_template('search.html')
+            print(search_query)
             search_results=database.search(search_query)
-            print(search_results)
             x=search_results.split('.')
             # Render a template with the search results
             return render_template('search_results.html', results=aws.return_content(search_results))

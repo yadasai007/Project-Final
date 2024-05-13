@@ -39,13 +39,15 @@ class Request:
         "input": vector_text
         }
         response = requests.post(self.url, json=body, headers=self.header)
-
+        print(self.url)
+        print(body)
+        print(self.header)
         if response.status_code == 200:
             # Request was successful
             data = response.json()  # Assuming response is JSON data
             print("Success")  # Print the response data
         else:
             print('Error:', response.status_code)
-
+        print(response.status_code)
         vector=data['data'][0]['embedding']
         return vector
